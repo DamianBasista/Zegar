@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+body {
+    background-color: #302e34;
+}
+
+#clock {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    margin: -125px 0 0 125px;
+    font-family: 'Space Mono', monospace;
+    font-size: 150px;
+    color: #CCFFFF;
+    text-shadow: 0 0 50px #2a14ff;
+    border: double #CCFFFF;
+    box-shadow: 0 0 50px #2a14ff;
+}
