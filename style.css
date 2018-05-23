@@ -22,12 +22,17 @@ li {
     font-weight: bold;
     font-size: 70px;
     letter-spacing: 4px;
-    text-shadow: 0 0 30px white, 0 0 10px yellow;
+    color: #0066FF;
+    text-shadow: 0 0 30px white, 0 0 10px #0066FF;
 }
 
 li:nth-child(5) {
     transform: rotate(10deg) translateY(4px);
     animation: neon 2s infinite linear;
+}
+
+.off {
+    opacity: 0;
 }
 
   @keyframes neon {

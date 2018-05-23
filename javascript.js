@@ -1,14 +1,13 @@
 var button = document.querySelector("button");
 button.addEventListener("click", function(){
-    if(button.textContent == "ZOBACZ"){
-        button.textContent = "WYŁĄCZ";
+    if(button.textContent == "WYŁĄCZ"){
+        button.textContent = "ZOBACZ";
     }else {
-        button.textContent = "ZOBACZ"
+        button.textContent = "WYŁĄCZ"
     }
-})
-
-
-
+    const words = document.querySelector("#clock");
+    clock.classList.toggle("off")
+    })
 
 setInterval(function(){
     var date = new Date();
