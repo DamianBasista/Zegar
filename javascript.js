@@ -1,3 +1,15 @@
+var button = document.querySelector("button");
+button.addEventListener("click", function(){
+    if(button.textContent == "ZOBACZ"){
+        button.textContent = "WYŁĄCZ";
+    }else {
+        button.textContent = "ZOBACZ"
+    }
+})
+
+
+
+
 setInterval(function(){
     var date = new Date();
 
