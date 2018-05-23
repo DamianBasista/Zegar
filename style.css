@@ -25,6 +25,11 @@ li {
     text-shadow: 0 0 30px white, 0 0 10px yellow;
 }
 
+li:nth-child(5) {
+    transform: rotate(10deg) translateY(4px);
+    animation: neon 2s infinite linear;
+}
+
 #clock {
     position: absolute;
     top: 70%;
