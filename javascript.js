@@ -1,3 +1,6 @@
+
+
+
 var button = document.querySelector("button");
 button.addEventListener("click", function(){
     if(button.textContent == "WYŁĄCZ"){
